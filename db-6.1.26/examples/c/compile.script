@@ -1,0 +1,14 @@
+ 1482  gcc ex_access.c -L../../build_unix/ -ldb
+ 1483  gcc ex_sequence.c -L../../build_unix/ -ldb
+ 1484  ./a.out 
+ 1485  ls
+ 1486  ll
+ 1487  cat sequence.db 
+ 1488  ./a.out sequence.db 
+ 1489  ./a.out -r sequence.db 
+ 1490  ./a.out -r access.db 
+ 1491  history 
+[weilaidb@ubuntu c]$ 
+[weilaidb@ubuntu c]$ 
+[weilaidb@ubuntu c]$ pwd
+/home/weilaidb/work/db/berkeleydb/db-6.1.26/examples/c
